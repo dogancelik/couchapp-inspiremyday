@@ -1,0 +1,17 @@
+body { font-family: Arial; overflow: hidden; }
+#q1, #q2 { color: #350000; font-size: 200%; }
+#q1 { top: 10%; left: 7%; }
+#q2 { top: 23%; right: 7%; text-align: right; }
+#q3 { top: 47%; text-align: center; width: 100%; font-size: 3em; }
+i, #q3 { color: white; text-shadow: 0 0 3px #000; }
+#q1, #q2, #q3, #qby { position: absolute; font-weight: bold; }
+#qby { font-size: 3em; right: 2%; bottom: 15%; font-style: italic; }
+img { width: 100%; position: absolute; top: 0; left: 0; z-index: -1; }
+
+html { 
+  background: url(http://thingstodoidea.com/wp-content/uploads/2012/12/Blue-mountain-lake-high-quality-wallpaper.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

@@ -1,0 +1,15 @@
+[
+  {
+    "from": "assets/*",
+    "to": "/*"
+  },
+  {
+    "from": "",
+    "to": "_list/quote_today/day/",
+    "query": {"descending": "true", "limit": "1"}
+  },
+  {
+    "from": "*",
+    "to": "_show/quote_by_day/*"
+  }
+]
